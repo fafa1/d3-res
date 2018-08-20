@@ -141,7 +141,7 @@ window.onresize = function(event) {
  clearTimeout(resizeTimer);
   resizeTimer = setTimeout(function()
   {
-    var s = d3.selectAll('svg');
+    var s = d3.selectAll('#target');
     s = s.remove();
     set_vars();
     drawGraphic();
