@@ -50,11 +50,8 @@
     margin-right: 20px;
 }
 
-.nav-list__item a {
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
+
+
 
 .bt0 {
     font: inherit;
@@ -124,4 +121,102 @@
 .bt4:active,
 .bt4:hover {
     background: rgb(222, 230, 118);
+}
+
+.bt5 {
+    font: inherit;
+    border: 1px solid rgb(60, 235, 60);
+    background: rgb(60, 235, 60);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt5:active,
+.bt5:hover {
+    background: rgb(50, 210, 50);
+}
+
+.bt6 {
+    font: inherit;
+    border: 1px solid rgb(103, 89, 235);
+    background: rgb(103, 89, 235);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt6:active,
+.bt6:hover {
+    background: rgb(97, 79, 215);
+}
+
+.bt7 {
+    font: inherit;
+    border: 1px solid rgb(143, 29, 29);
+    background: rgb(143, 29, 29);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt7:active,
+.bt7:hover {
+    background: rgb(123, 19, 19);
+}
+
+.bt8 {
+    font: inherit;
+    border: 1px solid rgb(250, 60, 60);
+    background: rgb(250, 60, 60);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt8:active,
+.bt8:hover {
+    background: rgb(230, 50, 50);
+}
+
+.bt9 {
+    font: inherit;
+    border: 1px solid rgb(139, 76, 57);
+    background: rgb(139, 76, 57);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt9:active,
+.bt9:hover {
+    background: rgb(129, 66, 47);
+}
+
+.bt10 {
+    font: inherit;
+    border: 1px solid rgb(208, 19, 19);
+    background: rgb(208, 19, 19);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt10:active,
+.bt10:hover {
+    background:rgb(218, 49, 49);
+}
+
+.bt11 {
+    font: inherit;
+    border: 1px solid rgb(211, 193, 199);
+    background: rgb(211, 193, 199);
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+  
+.bt11:active,
+.bt11:hover {
+    background:rgb(201, 183, 179);
 }

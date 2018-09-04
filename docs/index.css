@@ -17,7 +17,6 @@ a {
     margin: 50px;    
 }
 
-
 #target2 {
     margin: 30px;
     position: relative;
@@ -26,16 +25,6 @@ a {
     
 }
 
-#target3 {
-    margin: 30px;
-    position: relative;
-    top: 350px;
-}
-#target4 {
-    margin: 30px;
-    position: relative;
-    top: 650px;
-}
 
 .pt0 {
     position: absolute;
@@ -93,7 +82,6 @@ a {
 
 .star-title {
     font-size: 20px;
-
 }
 
 .star-label {
@@ -112,7 +100,7 @@ a {
 }
 
 .star-path {
-     stroke: #444; 
+    stroke: #444; 
     stroke-width: 1px;
     fill: rgb(130, 172, 192);
     fill-opacity: 0.4;
@@ -149,10 +137,37 @@ a {
     fill: rgb(103, 89, 235);
     fill-opacity: 0.4;
 }
+.pt7 .chart .star-path {
+    stroke-width: 1px;
+    fill: rgb(143, 29, 29);
+    fill-opacity: 0.4;
+}
+.pt8 .chart .star-path {
+    stroke-width: 1px;
+    fill: rgb(250, 60, 60);
+    fill-opacity: 0.4;
+}
+.pt9 .chart .star-path {
+    stroke-width: 1px;
+    fill: rgb(139, 76, 57);
+    fill-opacity: 0.4;
+}
 .star-interaction {
     opacity: 0;
 }
-
+.pt10 .chart .star-path {
+    stroke-width: 1px;
+    fill:rgb(208, 19, 19);
+    fill-opacity: 0.4;
+}
+.pt11 .chart .star-path {
+    stroke-width: 1px;
+    fill:rgb(211, 193, 199);
+    fill-opacity: 0.4;
+}
+.star-interaction {
+    opacity: 0;
+}
 .interaction {
     pointer-events: none;
 }
