@@ -87,6 +87,8 @@ a {
 .star-label {
     font-size: 15px;
     pointer-events: none;
+    position: absolute;
+    color: red;
 }
 
 .star-origin {

@@ -72,7 +72,7 @@ d3.csv('saude.csv')
       .labelMargin(labelMargin)
       // Responsável pelas labels dos eixos
       rows.forEach(function (d, i) {
-      star.includeLabels(i % 1 === 0 ? true : false);
+      star.includeLabels(i % 12 === 0 ? true : false);
 
       var wrapper = d3.selectAll('#target').append('span')
         .attr('class', "wrapper" /* + d.Mes */)
@@ -152,8 +152,17 @@ function type(d) {
 }
 
   // style display é diferente de block (é none)
-  function myFunction(c) {
-  let x = document.getElementsByClassName("chart")
-  x[c].style.display = (x[c].style.display === 'block') ? 'none' : 'block' 
-    
-}
+/*   function myFunction(c) {
+    let x = document.getElementsByClassName("chart")
+    let y = document.getElementsByClassName("bt1")
+    // for (let i = 0; i <= y.length; i ++) {
+      if (x[c].style.display === 'block') {
+        x[c].style.display = 'none'
+        y[0].style.color = '#fff'
+        y[0].style.removeProperty("background-color")
+      } else {
+        x[c].style.display = 'block'
+        y[0].style.color = 'black'
+        y[0].style.background = '#fff'
+      }    
+} */
